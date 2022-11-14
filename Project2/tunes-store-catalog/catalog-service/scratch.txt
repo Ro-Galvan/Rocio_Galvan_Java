@@ -1,0 +1,14 @@
+mysql://kp2y4yapqyoxvieb:svvvavjtq73q03dh@o2olb7w3xv09alub.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/pafmbwlnpvo24huv
+- add prefix jdbc:mysql:// and include everything after @
+SPRING_DATASOURCE_URL   jdbc:mysql://o2olb7w3xv09alub.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/pafmbwlnpvo24huv
+- before the colon : and after //
+SPRING_DATASOURCE_USERNAME kp2y4yapqyoxvieb
+- after the colon : but before @
+SPRING_DATASOURCE_PASSWORD svvvavjtq73q03dh
+
+- then copy over to heroku dashboard
+
+then on MYSQL workbench
+host: o2olb7w3xv09alub.cbetxkdyhwsb.us-east-1.rds.amazonaws.com
+
+after entering username, hit vault and copy the password
